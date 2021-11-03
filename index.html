@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>paulandrews.ca</title>
+	</head>
+	<style id="ucp">
+		/* CSS style reset */
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed,
+		figure, figcaption, footer, header, hgroup,
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			vertical-align: baseline;
+		}
+		html {
+			height: 100%;
+		}
+
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure,
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		/* End style reset */	
+
+		html{
+			overflow-x:hidden;
+		}
+
+		body{
+			width:100%;
+			min-height:100%;
+			overflow-x:hidden;
+			line-height: 1.3;
+		}
+
+		html body{
+			background: url('background.jpg'); 
+			background-position: top !important;
+			background-size:cover; 
+			background-repeat:no-repeat;
+		}
+
+		.container{
+		font-family:'Open Sans', sans-serif;
+		}
+
+		h1,h2{
+		text-align:center;
+		}
+
+		.ucp-module{
+		box-sizing:border-box;
+		}
+
+		.ucp-module > .ucp-element{
+			text-align:center;
+			position:relative;
+		}
+
+		.ucp-element img{
+			max-width:100%;
+		}
+
+		.ucp-row .ucp-module{
+			position: relative;
+			box-sizing:content-box;
+			min-height: 1px;
+			padding-right: 0;
+			padding-left: 0;
+			background-position: center;
+		}
+
+		.ucp-element textarea{
+			max-width:400px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+
+		.divider{
+			display:block;
+			height:10px;
+			width:100%;
+		}
+
+		h1.headingl{
+			font-size:34px;
+			padding:10px 0 10px 0;
+		}
+
+		h2.headings{
+			font-size:24px;
+			padding:10px 0 10px 0;      
+		}		
+
+		h1.headingl,
+		h1.headingl *,
+		h2.headings,
+		h2.headings *{
+			line-height:1.2;
+		}		
+
+		#ucp-notice {
+			box-sizing:border-box;
+			padding-left:0px;
+			padding-right:0px;
+			padding-top:380px;
+			padding-bottom:0px;
+			margin-left:0px;
+			margin-right:0px;
+			margin-top:0px;
+			margin-bottom:0px;
+			border-color:rgb(51, 51, 51);
+			border-width:0px;
+			border-style:none;
+		}
+		#ucp-notice .headingl,#ucp-notice .headingl * {
+			color:rgb(0, 0, 0);
+			font-size:36px;
+			font-family:'Special Elite';
+			font-weight:400;
+		}
+
+		#ucp-footer {
+			box-sizing:border-box;
+			padding-left:0px;
+			padding-right:0px;
+			padding-top:350px;
+			padding-bottom:0px;
+			margin-left:0px;
+			margin-right:0px;
+			margin-top:0px;
+			margin-bottom:0px;
+			border-color:rgb(51, 51, 51);
+			border-width:0px;
+			border-style:none;
+		}
+		#ucp-footer .footing1,#ucp-footer .footing1 * {
+			color:rgb(0, 0, 0);
+			font-size:14px;
+			font-family:'Special Elite';
+			font-weight:400;
+		}
+	</style>
+  <link rel="stylesheet" id="ucp-google-fonts-loader" href="https://fonts.googleapis.com/css?family=Special+Elite:400,800">
+	<body>
+		<div id="ucp">
+			<div class="container">
+				<div class="ucp-row row ucp-row-empty ui-sortable ui-droppable" style="cursor: auto;">
+					<div class="ucp-module col-12 col-md-12 col-sm-12 col-xs-12" data-module-type="heading_l" data-module-id="notice" id="ucp-notice" style="cursor: auto;">
+						<div class="ucp-element" data-element-type="heading_l" data-css-attr="color,font-size" data-attr="html" data-element-id="e15954" style="cursor: auto;">
+							<div class="headingl"><h1>Sorry, we're doing some work on the site</h1></div>
+						</div>
+					</div>
+				</div>
+				<div class="ucp-row row ucp-row-empty ui-sortable ui-droppable" style="cursor: auto;">
+					<div class="ucp-module col-12 col-md-12 col-sm-12 col-xs-12" data-module-type="heading_l" data-module-id="footer" id="ucp-footer" style="cursor: auto;">
+						<div class="ucp-element" data-element-type="footing_1" data-css-attr="color,font-size" data-attr="html" data-element-id="e15954" style="cursor: auto;">
+							<div class="footing1">Copyright 2021 by Paul Andrews. All Rights Reserved.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
